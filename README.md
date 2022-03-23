@@ -1,6 +1,6 @@
 # Plan-A-Challenge1
 
-# Step to and Deploying the kubernetes.yaml and Running the kuberntes cluster with the microservice deployed
+# This is a simple guide to setup and Deploying and Running the kuberntes cluster with a little node js microservice deployed
  
 This is a simple guide to install and step kubernetes cluster on window
 
@@ -23,10 +23,10 @@ For more details on enabling kubernetes locally with Docker desktop Follow the l
 ##To Deploy and run the microservice app  Kuberntes 
 
 
-4. Open a command prompt at the root of the Challenge1\SimpleMicroservice 
+4. Open a command prompt at the root of the simplemicroservice 
 
 5. Provided Kubernetes cli setup properly done
-   Run the command "kubectl apply -f node-app-deployment.yaml"
+   Run the command "kubectl apply -f simplemicroservice.deployment.yaml"
 
 6. Run kubectl get pods
 
