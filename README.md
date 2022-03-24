@@ -22,7 +22,7 @@ For more details readup the documentation
 For more details on enabling kubernetes locally with Docker desktop Follow the link https://docs.docker.com/desktop/kubernetes/
 
 
-#To Deploy and run the dockerized node js microservice app with Kuberntes 
+# To Deploy and run the dockerized node js microservice app with Kuberntes 
 
  
 1. Clone the Repository  git clone https://github.com/Ugwum/Plan-A-Challenge1.git
