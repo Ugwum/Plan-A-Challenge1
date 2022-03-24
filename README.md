@@ -1,6 +1,6 @@
 # Plan-A-Challenge1
 
-# This is a simple guide to setup, deploy and Run the kuberntes cluster with a node js microservice
+This is a simple guide to setup, deploy and Run the kuberntes cluster with a node js microservice
 
 # Prerequisites
  
