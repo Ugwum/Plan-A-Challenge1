@@ -1,8 +1,10 @@
 # Plan-A-Challenge1
 
-# This is a simple guide to setup and Deploying and Running the kuberntes cluster with a little node js microservice deployed
+# This is a simple guide to setup, deploy and Run the kuberntes cluster with a node js microservice
+
+# Prerequisites
  
-This is a simple guide to install and step kubernetes cluster on window
+This is a simple guide to install and step kubernetes cluster locally preferrably windows 
 
 1. Install/ Setup Hyper-V & Docker in order to use Kubernetes.
 
@@ -20,14 +22,23 @@ For more details readup the documentation
 For more details on enabling kubernetes locally with Docker desktop Follow the link https://docs.docker.com/desktop/kubernetes/
 
 
-##To Deploy and run the microservice app  Kuberntes 
+##To Deploy and run the dockerized node js microservice app with Kuberntes 
 
+# STEP 1 
+ Clone the Repository  git clone https://github.com/Ugwum/Plan-A-Challenge1.git
 
-4. Open a command prompt at the root of the simplemicroservice 
+# STEP 2
+Open a command prompt  and change directory to the root of the simplemicroservice i.e cd  Plan-A-Challenge1\simplemicroservice 
 
-5. Provided Kubernetes cli setup properly done
-   Run the command "kubectl apply -f simplemicroservice.deployment.yaml"
+# STEP 3
+Run the command "kubectl apply -f simplemicroservice.deployment.yaml"     
 
-6. Run kubectl get pods
+ please note step 3 is successful if kubernetes setup is done properly
 
-7. Navigate to http://localhost:8909 in your browser.
+#STEP 4
+    
+ Run kubectl get pods
+ 
+#STEP 5
+
+ Navigate to http://localhost:8909 in your browser.
