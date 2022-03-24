@@ -24,21 +24,13 @@ For more details on enabling kubernetes locally with Docker desktop Follow the l
 
 ##To Deploy and run the dockerized node js microservice app with Kuberntes 
 
-# STEP 1 
- Clone the Repository  git clone https://github.com/Ugwum/Plan-A-Challenge1.git
-
-# STEP 2
-Open a command prompt  and change directory to the root of the simplemicroservice i.e cd  Plan-A-Challenge1\simplemicroservice 
-
-# STEP 3
-Run the command "kubectl apply -f simplemicroservice.deployment.yaml"     
-
- please note step 3 is successful if kubernetes setup is done properly
-
-#STEP 4
-    
- Run kubectl get pods
  
-#STEP 5
+1. Clone the Repository  git clone https://github.com/Ugwum/Plan-A-Challenge1.git
 
- Navigate to http://localhost:8909 in your browser.
+2. Open a command prompt  and change directory to the root of the simplemicroservice i.e cd  Plan-A-Challenge1\simplemicroservice 
+
+3. Run the command "kubectl apply -f simplemicroservice.deployment.yaml"please note step 3 is successful if kubernetes setup is done properly
+ 
+4. Run kubectl get pods
+ 
+5. Navigate to http://localhost:8909 in your browser.
